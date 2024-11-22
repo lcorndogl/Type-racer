@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #ff8400;
+}
+
+/* Remove default margin & padding added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100vw;
+    font-family: 'Alegreya', serif;
+}
+
+#buttons .btn{
+    border: 2px solid var(--primary-color);
+}
